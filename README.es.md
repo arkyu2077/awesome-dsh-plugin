@@ -32,7 +32,7 @@ Este repositorio está pensado para quienes quieren utilizar esos productos. No 
 3. ¿Dónde puedo consultar la información más reciente?
 4. ¿Qué hago si aparecen problemas de permisos o compatibilidad?
 
-Cada nombre del catálogo abre primero una ficha interna de `dshplugin.dev`. Este repositorio enlaza únicamente las 87 páginas de la base pública verificada el 17 de agosto de 2026; no convierte cada descubrimiento del rastreador en una recomendación pública. En cada ficha puedes revisar el editor, el propósito, el comando de instalación, la licencia, el lenguaje, la actividad del repositorio y la fuente original antes de continuar al sitio del editor.
+Cada plugin publicado abre una ficha interna de `dshplugin.dev`. El repositorio también hace visibles los 1.488 registros de la instantánea del 17 de agosto de 2026, incluidos los candidatos y los registros no publicados. Solo las 87 páginas de la base pública verificada reciben un enlace a su ficha, para no confundir visibilidad con publicación o recomendación.
 
 > [!IMPORTANT]
 > `dshplugin.dev` es un directorio comunitario independiente, no un sitio oficial de DeepSeek. La inclusión de un proyecto no representa una recomendación de DeepSeek ni del editor. Un repositorio público, el número de estrellas o una actualización reciente no demuestran por sí solos seguridad, compatibilidad o calidad de mantenimiento.
@@ -50,9 +50,22 @@ Cada nombre del catálogo abre primero una ficha interna de `dshplugin.dev`. Est
 | Entender las reglas de inclusión y corrección | [Política editorial](https://dshplugin.dev/editorial-policy) |
 | Consultar el tamaño y las categorías del ecosistema | [Informe del ecosistema](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem) |
 
+## Inventario completo del ecosistema
+
+No se oculta ningún registro de la instantánea del 17 de agosto de 2026. Abre el [inventario completo](inventory/README.es.md) para consultar los **1.488 registros** según su estado de publicación:
+
+| Inventario | Registros | Qué puedes hacer |
+| --- | ---: | --- |
+| Publicados | 87 | Abrir la ficha completa del plugin en `dshplugin.dev`. |
+| Candidatos | 1.166 | Consultar nombre, categoría, resumen, lenguaje y licencia mientras esperan revisión humana. |
+| En cuarentena | 216 | Ver los registros conservados para auditoría porque las pruebas disponibles son incompletas. |
+| Rechazados | 19 | Ver los registros que no superaron una condición obligatoria de publicación. |
+
+Los candidatos, los registros en cuarentena y los rechazados no pertenecen a la base pública controlada, por lo que no enlazan a fichas individuales. Algunas URL transitorias todavía pueden responder mientras se limpia el sitio web. Así se mantiene visible todo lo recopilado sin tratar páginas inestables como destinos publicados.
+
 ## Elige según tu necesidad
 
-Los archivos de categoría enlazan únicamente las 87 páginas de la base pública controlada que se verificó el 17 de agosto de 2026. Los registros candidatos, en cuarentena o rechazados quedan fuera, incluso si alguna URL transitoria todavía se puede abrir.
+Los archivos de categoría forman el catálogo público navegable de 87 páginas. El [inventario completo](inventory/README.es.md) muestra por separado los 1.488 registros recopilados sin tratar cada hallazgo como publicado.
 
 | Categoría | Úsala cuando necesites | Instantánea | Catálogo completo |
 | --- | --- | ---: | --- |
@@ -72,9 +85,9 @@ Descubrir un proyecto y publicarlo son decisiones distintas. El rastreador autom
 | Estado | Qué significa para el usuario |
 | --- | --- |
 | Base pública | Es el conjunto histórico de URL cuya indexación se verificó en Search Console. Se conservan los enlaces para mantener URL estables, pero esto no demuestra una revisión manual reciente ni una certificación de seguridad. |
-| Candidate | Ha superado las comprobaciones automáticas iniciales y espera revisión humana. No se enlaza desde aquí. |
-| Quarantined | No hay pruebas suficientes para establecer que sea un plugin de DSH con funcionalidad sustancial. Se mantiene fuera del catálogo público. |
-| Rejected | Está archivado, no es accesible, está vacío o ha fallado una condición excluyente. Un rastreo posterior no debe volver a publicarlo automáticamente. |
+| Candidate | Ha superado las comprobaciones automáticas iniciales y espera revisión humana. Aparece en el inventario completo, pero sin enlace a una ficha. |
+| Quarantined | No hay pruebas suficientes para establecer que sea un plugin de DSH con funcionalidad sustancial. Aparece para fines de auditoría, pero queda fuera del catálogo público. |
+| Rejected | Está archivado, no es accesible, está vacío o ha fallado una condición excluyente. Se conserva en el inventario de auditoría y un rastreo posterior no debe volver a publicarlo automáticamente. |
 
 El informe del ecosistema puede mostrar más proyectos descubiertos o auditados que este catálogo. La diferencia es intencionada: se priorizan la calidad y una indexación estable frente a publicar todos los repositorios encontrados.
 
@@ -169,13 +182,15 @@ No. La inclusión significa que el directorio encontró y normalizó informació
 ## Alcance de los datos y actualizaciones
 
 - Fecha de la instantánea: 2026-08-17
+- Instantánea de descubrimiento visible en este repositorio: 1.488 registros
 - Base pública controlada en este repositorio: 87 páginas de plugins
+- Colas de revisión: 1.166 candidatos, 216 en cuarentena y 19 rechazados
 - Categorías con entradas en la base: 7; Storage tiene actualmente 0
 - Fuentes: repositorios públicos de GitHub, metadatos de npm y páginas de los editores
 - Estado actual: [Informe del ecosistema](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem)
 - Método de inclusión: [Política editorial](https://dshplugin.dev/editorial-policy)
 
-Los nombres, descripciones, licencias y señales de actividad pueden cambiar. Los archivos de categoría son una instantánea de navegación controlada, no una copia de todos los candidatos descubiertos. Verifica el estado actual en la ficha del sitio web y en la fuente del editor.
+Los nombres, descripciones, licencias y señales de actividad pueden cambiar. El inventario completo conserva la instantánea de auditoría; los archivos de categoría siguen siendo el catálogo navegable controlado. Para un plugin publicado, verifica el estado actual en la ficha del sitio web y en la fuente del editor.
 
 ## Enviar o corregir un plugin
 

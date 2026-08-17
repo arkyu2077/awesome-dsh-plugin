@@ -32,7 +32,7 @@ This repository is written for people who want to use those products. It is not 
 3. Where can I find the latest plugin information?
 4. What should I do when permissions or compatibility cause problems?
 
-Every plugin name in the catalog opens an internal `dshplugin.dev` detail page. This repository deliberately links only the 87-page public baseline verified on 2026-08-17; it does not turn every crawler discovery into a public recommendation. Each detail page brings together the publisher, purpose, install command, license, language, repository activity, and original source before you decide whether to continue to the publisher.
+Every published plugin name opens an internal `dshplugin.dev` detail page. The repository also keeps the complete 1,488-record discovery snapshot visible, including candidates and records withheld from publication. Only the 87-page public baseline verified on 2026-08-17 receives a detail-page link, so visibility is never confused with publication or recommendation.
 
 > [!IMPORTANT]
 > `dshplugin.dev` is an independent community directory. It is not an official DeepSeek website, and a listing is not an endorsement by DeepSeek or the publisher. A public repository, star count, or recent update does not prove safety, compatibility, or maintenance quality.
@@ -50,9 +50,22 @@ Every plugin name in the catalog opens an internal `dshplugin.dev` detail page. 
 | Understand inclusion and correction rules | [Editorial policy](https://dshplugin.dev/editorial-policy) |
 | Review ecosystem size and category trends | [Ecosystem report](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem) |
 
+## Complete ecosystem inventory
+
+Nothing in the 2026-08-17 snapshot is hidden. Open the [complete inventory](inventory/README.md) to browse all **1,488 records** by publication status:
+
+| Inventory | Records | What you can do |
+| --- | ---: | --- |
+| Published | 87 | Open the plugin's complete product page on `dshplugin.dev`. |
+| Candidate | 1,166 | Review the name, category, summary, language, and license while human publication review is pending. |
+| Quarantined | 216 | See records kept for audit because the available evidence is incomplete. |
+| Rejected | 19 | See records that failed a hard publication gate. |
+
+Candidate, quarantined, and rejected names are deliberately not linked to individual website pages because they are not part of the controlled public baseline. Some transitional URLs may still resolve while website cleanup is in progress. This keeps the full collected inventory visible without treating unstable pages as published destinations.
+
 ## Choose by use case
 
-The category files link only the 87-page controlled public baseline verified on 2026-08-17. Candidate, quarantined, and rejected records are excluded, even when a transitional URL can still be opened.
+The category files below are the clickable 87-page public catalog. The [complete inventory](inventory/README.md) separately exposes all 1,488 collected records without treating every discovery as published.
 
 | Category | Use it when you need | Snapshot | Complete catalog |
 | --- | --- | ---: | --- |
@@ -72,9 +85,9 @@ Discovery and publication are separate decisions. Automated crawling can identif
 | Status | What it means for users |
 | --- | --- |
 | Public baseline | The historical cohort verified as indexed in Search Console. It is linked here to preserve stable URLs, but this does not prove a fresh manual review or safety certification. |
-| Candidate | Passed initial automated checks and is waiting for human review. It is not linked here. |
-| Quarantined | Evidence is incomplete or does not yet establish a substantive DSH plugin. It remains outside the public catalog. |
-| Rejected | Archived, inaccessible, empty, or otherwise failed a hard gate. It is excluded and should not be revived by a later crawl. |
+| Candidate | Passed initial automated checks and is waiting for human review. It is visible in the complete inventory but has no detail-page link. |
+| Quarantined | Evidence is incomplete or does not yet establish a substantive DSH plugin. It is visible for audit but remains outside the public catalog. |
+| Rejected | Archived, inaccessible, empty, or otherwise failed a hard gate. It remains visible in the audit inventory but should not be revived by a later crawl. |
 
 The wider ecosystem report can contain discovery and audit totals that are larger than this catalog. That difference is intentional: quality and stable indexation take priority over publishing every discovered repository.
 
@@ -169,13 +182,15 @@ No. A listing means the directory found and normalized public-source information
 ## Data scope and updates
 
 - Snapshot date: 2026-08-17
+- Complete discovery snapshot visible in this repository: 1,488 records
 - Controlled public baseline in this repository: 87 plugin pages
+- Publication review queues: 1,166 candidates, 216 quarantined, and 19 rejected
 - Categories represented in the baseline: 7, plus an empty Storage status page
 - Sources: public GitHub repositories, npm metadata, and publisher pages
 - Live status: [Ecosystem report](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem)
 - Inclusion method: [Editorial policy](https://dshplugin.dev/editorial-policy)
 
-Plugin names, descriptions, licenses, and activity can change. The category files are a controlled navigation snapshot, not a mirror of every discovered candidate. The website detail page and publisher source are the places to verify current status.
+Plugin names, descriptions, licenses, and activity can change. The complete inventory preserves the audit snapshot; the category files remain the controlled clickable catalog. For a published plugin, use its website detail page and publisher source to verify current status.
 
 ## Submit or correct a listing
 
