@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://dshplugin.dev/">
-    <img src="assets/dsh-plugin-mark.svg" width="96" height="96" alt="dshplugin.dev ロゴ" />
+    <img src="https://dshplugin.dev/assets/dsh-plugin-icon-192.png" width="96" height="96" alt="dshplugin.dev ロゴ" />
   </a>
 </p>
 
