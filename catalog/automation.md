@@ -1,6 +1,6 @@
 # Automation DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/automation)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/automation)
 
 面向重复任务、Agent 协作、工作流编排和跨工具集成。适合希望减少手工步骤的用户。
 

@@ -1,6 +1,6 @@
 # Storage DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/storage)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/storage)
 
 面向持久化、数据库、缓存和产物存储。使用前应确认数据位置、备份、删除和第三方传输规则。
 

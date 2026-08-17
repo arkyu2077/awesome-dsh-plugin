@@ -1,6 +1,6 @@
 # Security DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/security)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/security)
 
 面向权限、沙箱、策略、密钥和防护工作流。分类本身不代表安全认证，仍需检查源码和权限边界。
 

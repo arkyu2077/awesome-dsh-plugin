@@ -1,6 +1,6 @@
 # Sessions DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/sessions)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/sessions)
 
 面向会话历史、记忆、上下文、摘要和对话工作流。使用前应重点检查数据保存位置和隐私范围。
 

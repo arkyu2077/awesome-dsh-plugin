@@ -1,6 +1,6 @@
 # Browser DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/browser)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/browser)
 
 面向网页导航、搜索、采集、测试和浏览器交互。使用前应重点检查登录态、页面数据和网络权限。
 

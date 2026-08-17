@@ -1,6 +1,6 @@
 # Models DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/models)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/models)
 
 面向模型适配、路由、回退和推理服务接入。使用前应核对服务商、费用、密钥处理和模型兼容性。
 

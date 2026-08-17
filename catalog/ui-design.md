@@ -1,6 +1,6 @@
 # UI & Design DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/ui-design)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/ui-design)
 
 面向界面、主题、可视化、设计、预览和创意工作流。适合重视交互效率或视觉输出的用户。
 

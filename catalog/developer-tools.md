@@ -1,6 +1,6 @@
 # Developer Tools DSH 插件
 
-[← 返回产品说明书](../README.md) · [打开官网实时分类](https://dshplugin.dev/categories/developer-tools)
+[Product handbook](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md) · [Español](../README.es.md) · [打开官网实时分类](https://dshplugin.dev/categories/developer-tools)
 
 面向代码、终端、文件、API、调试和本地工作流的扩展。适合希望把 DSH 变成日常工作台的用户。
 

@@ -1,0 +1,179 @@
+<p align="center">
+  <a href="https://dshplugin.dev/">
+    <img src="assets/dsh-plugin-mark.svg" width="96" height="96" alt="dshplugin.dev ロゴ" />
+  </a>
+</p>
+
+# Awesome DSH Plugin
+
+<p align="center"><strong>DeepSeek Harness利用者向けの製品ハンドブック兼プラグインナビゲーションです。</strong></p>
+
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.zh-CN.md">简体中文</a> ·
+  <strong>日本語</strong> ·
+  <a href="README.es.md">Español</a>
+</p>
+
+用途と権限範囲を確認してから、[dshplugin.dev](https://dshplugin.dev/) の詳細ページで最新情報を確認できます。上のロゴをクリックしてもウェブサイトへ移動できます。
+
+[![Website](https://img.shields.io/badge/プラグインを探す-dshplugin.dev-0B6E5F)](https://dshplugin.dev/)
+[![Directory](https://img.shields.io/badge/公開詳細ページ-1%2C294-2563EB)](https://dshplugin.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## このハンドブックについて
+
+DeepSeek Harness（DSH）は、「Everything is a Plugin」という考え方で機能を拡張します。コミュニティ製プラグインを使うと、開発ツール、自動化、ブラウザ操作、UI・デザイン、セッション管理、モデル連携、セキュリティ制御、ストレージなどの機能を追加できます。
+
+このリポジトリは、プラグインを利用したい方のための製品説明書です。APIリファレンス、アーキテクチャ解説、プラグイン開発資料ではありません。次の4点を判断しやすくすることを目的としています。
+
+1. 自分の目的には、どの種類のプラグインが合うか。
+2. インストール前に何を確認すべきか。
+3. 最新のプラグイン情報をどこで確認できるか。
+4. 権限や互換性の問題が起きたとき、どう切り分けるか。
+
+カタログ内のプラグイン名をクリックすると、`dshplugin.dev` の詳細ページが開きます。詳細ページでは、公開元、用途、インストールコマンド、ライセンス、使用言語、リポジトリの更新状況、情報源をまとめて確認できます。
+
+> [!IMPORTANT]
+> `dshplugin.dev` は独立したコミュニティディレクトリであり、DeepSeekの公式サイトではありません。掲載は、DeepSeekまたは各公開元による推奨を意味しません。公開リポジトリ、Star数、更新日時だけでは、安全性、互換性、保守品質を判断できません。
+
+## 目的別の入口
+
+| やりたいこと | おすすめのページ |
+| --- | --- |
+| 名前や用途からプラグインを検索する | [プラグイン総合ディレクトリ](https://dshplugin.dev/) |
+| DSHプラグインを初めて導入する | [インストールと確認のガイド](https://dshplugin.dev/guides/install-deepseek-harness-plugins) |
+| 新しく見つかったプロジェクトを見る | [新着プラグイン](https://dshplugin.dev/collections/new-releases) |
+| 最近更新されたプロジェクトを探す | [最近の更新](https://dshplugin.dev/collections/recently-updated) |
+| GitHubのStar数を初期判断の材料にする | [Star数の多いプラグイン](https://dshplugin.dev/collections/most-starred) |
+| 作者やチームごとに探す | [公開元ディレクトリ](https://dshplugin.dev/publishers) |
+| 掲載・修正ルールを確認する | [編集ポリシー](https://dshplugin.dev/editorial-policy) |
+| エコシステムの規模と分類を見る | [エコシステムレポート](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem) |
+
+## 用途から選ぶ
+
+このリポジトリの分類ファイルには、公開中の詳細ページ1,294件を収録しています。件数は2026-08-17時点のスナップショットです。最新件数はウェブサイトで確認してください。
+
+| 分類 | このような目的に向いています | 件数 | 一覧 |
+| --- | --- | ---: | --- |
+| Developer Tools | コード、ターミナル、ファイル、デバッグ、API、ローカル作業の改善 | 555 | [すべて見る](catalog/developer-tools.md) |
+| Automation | 反復作業、エージェント連携、ワークフロー、自動化 | 291 | [すべて見る](catalog/automation.md) |
+| Browser | ウェブ操作、検索、情報取得、テスト、ブラウザ連携 | 127 | [すべて見る](catalog/browser.md) |
+| UI & Design | UI、テーマ、可視化、デザイン、プレビュー | 109 | [すべて見る](catalog/ui-design.md) |
+| Models | モデル接続、ルーティング、フォールバック、推論サービス | 93 | [すべて見る](catalog/models.md) |
+| Sessions | 履歴、メモリ、コンテキスト、要約、会話管理 | 62 | [すべて見る](catalog/sessions.md) |
+| Security | 権限、サンドボックス、ポリシー、シークレット、防御機能 | 54 | [すべて見る](catalog/security.md) |
+| Storage | 永続化、データベース、キャッシュ、成果物の保存 | 3 | [すべて見る](catalog/storage.md) |
+
+ウェブサイトの分類ページ：
+
+- [Developer Tools](https://dshplugin.dev/categories/developer-tools)
+- [Automation](https://dshplugin.dev/categories/automation)
+- [Browser](https://dshplugin.dev/categories/browser)
+- [UI & Design](https://dshplugin.dev/categories/ui-design)
+- [Models](https://dshplugin.dev/categories/models)
+- [Sessions](https://dshplugin.dev/categories/sessions)
+- [Security](https://dshplugin.dev/categories/security)
+- [Storage](https://dshplugin.dev/categories/storage)
+
+## コミュニティ製プラグインを使う手順
+
+### 1. 先に基本のHarnessを起動する
+
+初回は、公式リポジトリで案内されている次のコマンドでWeb UIを起動します。
+
+```sh
+npx @deepseek-ai/dsh web
+```
+
+案内されている既定のアドレスは `http://127.0.0.1:3080` です。第三者製プラグインを追加する前に、基本機能が正常に動くことを確認してください。問題が起きたときに、追加前後の違いを切り分けやすくなります。
+
+### 2. 詳細ページで導入条件を確認する
+
+インストール前に、少なくとも次の項目を確認します。
+
+- 自分が解決したい問題と、プラグインの用途が一致しているか。
+- 完全なインストールコマンドが、公開元の最新資料に記載されているか。
+- 対象profile、DSHのバージョン、OS、前提条件が合っているか。
+- 最終更新日、Issue、保守に関する説明が確認できるか。
+- 個人、チーム、商用利用の条件に合うライセンスか。
+- 外部サービス、アカウント、シークレット、有料APIが必要か。
+- スクリーンショット、デモ、再現可能な出力例があるか。
+
+### 3. 権限を許可する前に範囲を確認する
+
+プラグインは第三者製コードです。次の操作が可能な場合は、ソースコードと公開元の説明を確認してから判断してください。
+
+- ローカルファイルの読み書き、またはターミナルコマンドの実行。
+- ブラウザ操作、ページ内容の読み取り、ログイン済みセッションの利用。
+- ネットワーク接続、コンテンツのアップロード、外部APIの呼び出し。
+- 環境変数、認証情報、セッション、会話履歴の読み取り。
+- モデルルーティング、承認ポリシー、セキュリティ設定の変更。
+
+詳細ページにインストールコマンドや権限説明がない場合は、情報参照用として扱ってください。リポジトリ名からコマンドを推測して実行するのは避けましょう。
+
+### 4. 機能を1つずつ確認する
+
+1. 公開元が指定したprofile、ブランチ、タグ、バージョンを変更せずに使います。
+2. 対象profileを更新または再起動し、読み込みエラーや承認エラーがないか確認します。
+3. 資料にある最小かつ元に戻せる例を実行します。
+4. 実際に必要な権限だけを許可します。
+5. リポジトリURLと導入したリビジョンを記録し、再現やロールバックに備えます。
+
+## 2つのプラグインを比較するポイント
+
+Star数だけで決めず、次の項目を見比べてください。
+
+| 観点 | 確認する内容 |
+| --- | --- |
+| 目的との一致 | 必要な問題を直接解決するか、説明文でDSHに触れているだけではないか。 |
+| 導入手順 | 完全なコマンド、対象profile、前提条件があるか。 |
+| 互換性 | 対応するDSHバージョン、OS、既知の制限が明記されているか。 |
+| 権限範囲 | 求める権限が、提供機能に対して過剰ではないか。 |
+| 確認できる証拠 | スクリーンショット、デモ、出力例、確認手順があるか。 |
+| 保守状況 | 更新、Issueへの回答、破壊的変更の説明があるか。 |
+| ライセンス | 個人、チーム、商用の利用条件に合うか。 |
+| 元に戻せるか | 無効化、削除、ロールバックの手順が分かるか。 |
+
+## よくある問題
+
+### インストール後にプラグインが表示されない
+
+profile、パッケージ名、ブランチ、タグをもう一度確認します。次に、Harnessの画面と公開元のIssueで読み込みエラーを探してください。複数のプラグインを一度に追加すると原因を特定しにくくなるため、1つずつ導入します。
+
+### 更新後に動かなくなった
+
+DeepSeek Harnessは現在も変化が速く、公式プロジェクトでは互換性を損なう変更が起こり得ると案内されています。Harnessのバージョン、プラグインの最終更新、互換性に関する説明を照合してください。必要に応じて、記録しておいた動作確認済みのバージョンへ戻します。
+
+### 広い権限を求められた
+
+許可する前にいったん止めます。各権限が機能に直接必要かを確認し、ソースコード、権限の理由、Issue履歴を読みます。説明のないファイル、ブラウザ、ネットワーク、シークレットへのアクセスは許可しないでください。
+
+### 掲載は推奨や安全認証を意味するか
+
+いいえ。掲載は、公開情報を発見し、項目を整理したことを示します。セキュリティ監査、互換性認証、品質保証、公式推奨ではありません。
+
+## データ範囲と更新
+
+- スナップショット作成日：2026-08-17
+- このリポジトリの公開詳細ページ：1,294件
+- 分類：8
+- 情報源：公開GitHubリポジトリ、npmメタデータ、公開元のページ
+- 最新状況：[エコシステムレポート](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem)
+- 掲載方法：[編集ポリシー](https://dshplugin.dev/editorial-policy)
+
+名称、説明、ライセンス、更新状況は変わる可能性があります。分類ファイルはナビゲーション用のスナップショットです。現在の状態は、ウェブサイトの詳細ページと公開元の資料で確認してください。
+
+## 掲載申請と修正
+
+プラグイン作者は、用途、導入方法、互換性、権限、ライセンス、使用例を公開リポジトリに記載し、GitHubで `dsh-plugin` topicを追加してから、[掲載ガイド](https://dshplugin.dev/submit)を確認してください。発見されたプロジェクトは審査候補になり、自動的に公開されるわけではありません。
+
+誤りや未掲載プロジェクトを報告する場合は、[お問い合わせページ](https://dshplugin.dev/contact)またはこのリポジトリのIssueから、確認できる公開情報をお送りください。詳しくは [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
+
+## 独立性について
+
+このリポジトリと [dshplugin.dev](https://dshplugin.dev/) は独立したコミュニティプロジェクトです。DeepSeekとの提携関係はなく、DeepSeekまたは掲載された公開元による推奨を受けたものではありません。DeepSeek、DeepSeek Harness、各プラグインの名称、ロゴ、商標は、それぞれの権利者に帰属します。
+
+## License
+
+[MIT](LICENSE)
