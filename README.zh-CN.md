@@ -18,7 +18,7 @@
 先看用途和风险，再前往 [dshplugin.dev](https://dshplugin.dev/) 查看完整详情。点击上方 Logo 也可直接进入网站。
 
 [![Website](https://img.shields.io/badge/浏览插件-dshplugin.dev-0B6E5F)](https://dshplugin.dev/)
-[![Directory](https://img.shields.io/badge/公开详情页-1%2C294-2563EB)](https://dshplugin.dev/)
+[![Baseline](https://img.shields.io/badge/受控公开基线-87-2563EB)](https://dshplugin.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 这是什么
@@ -32,7 +32,7 @@ DeepSeek Harness（简称 DSH）采用“Everything is a Plugin”的扩展方�
 3. 去哪里看插件的最新资料？
 4. 出现兼容性或权限问题时怎么办？
 
-仓库中的每个插件名称都跳转到 `dshplugin.dev` 的独立详情页。详情页会汇总发布者、用途、安装命令、许可证、语言、仓库活跃度和原始来源，再由你决定是否前往发布者页面。
+仓库中的每个插件名称都跳转到 `dshplugin.dev` 的独立详情页。本仓库只链接 2026-08-17 核验的 87 个公开基线页面，不会把采集器发现的每个项目都变成公开推荐。详情页会汇总发布者、用途、安装命令、许可证、语言、仓库活跃度和原始来源，再由你决定是否前往发布者页面。
 
 > [!IMPORTANT]
 > `dshplugin.dev` 是独立社区目录，不是 DeepSeek 官方网站，也不代表 DeepSeek 或插件发布者的认可。公开仓库、Star 数和更新时间都不能证明插件安全、兼容或持续维护。
@@ -43,7 +43,7 @@ DeepSeek Harness（简称 DSH）采用“Everything is a Plugin”的扩展方�
 | --- | --- |
 | 直接搜索插件名称或用途 | [插件总目录](https://dshplugin.dev/) |
 | 第一次安装 DSH 插件 | [安装与验证指南](https://dshplugin.dev/guides/install-deepseek-harness-plugins) |
-| 看刚进入生态的项目 | [新发布插件](https://dshplugin.dev/collections/new-releases) |
+| 看刚通过发布复核的项目 | [新发布插件](https://dshplugin.dev/collections/new-releases) |
 | 找近期仍在更新的项目 | [最近更新](https://dshplugin.dev/collections/recently-updated) |
 | 用 GitHub Star 作为初步参考 | [最多 Star](https://dshplugin.dev/collections/most-starred) |
 | 按作者或团队查看作品 | [发布者目录](https://dshplugin.dev/publishers) |
@@ -52,18 +52,31 @@ DeepSeek Harness（简称 DSH）采用“Everything is a Plugin”的扩展方�
 
 ## 按需求选择
 
-以下分类覆盖本仓库当前收录的 1,294 个公开详情页。数字是 2026-08-17 的仓库快照；实时数量以官网为准。
+以下分类只覆盖 2026-08-17 核验的 87 个受控公开基线页面。候选、隔离和拒绝记录不会出现在本仓库，即使某个过渡期 URL 暂时仍可打开，也不在这里继续传递链接。
 
 | 分类 | 适合你在什么时候使用 | 快照数量 | 完整导航 |
 | --- | --- | ---: | --- |
-| Developer Tools | 想增强代码、终端、文件、调试、API 或本地工作流 | 555 | [查看全部](catalog/developer-tools.md) |
-| Automation | 想把重复任务、Agent 协作或跨工具流程自动化 | 291 | [查看全部](catalog/automation.md) |
-| Browser | 需要网页操作、搜索、采集、测试或浏览器桥接 | 127 | [查看全部](catalog/browser.md) |
-| UI & Design | 想改善界面、主题、可视化、设计或预览体验 | 109 | [查看全部](catalog/ui-design.md) |
-| Models | 需要模型适配、路由、回退或推理服务接入 | 93 | [查看全部](catalog/models.md) |
-| Sessions | 需要会话历史、记忆、上下文和对话工作流 | 62 | [查看全部](catalog/sessions.md) |
-| Security | 关注权限、沙箱、策略、密钥或防护能力 | 54 | [查看全部](catalog/security.md) |
-| Storage | 需要持久化、数据库、缓存或产物存储 | 3 | [查看全部](catalog/storage.md) |
+| Developer Tools | 想增强代码、终端、文件、调试、API 或本地工作流 | 46 | [查看公开基线](catalog/developer-tools.md) |
+| Automation | 想把重复任务、Agent 协作或跨工具流程自动化 | 10 | [查看公开基线](catalog/automation.md) |
+| Browser | 需要网页操作、搜索、采集、测试或浏览器桥接 | 9 | [查看公开基线](catalog/browser.md) |
+| UI & Design | 想改善界面、主题、可视化、设计或预览体验 | 6 | [查看公开基线](catalog/ui-design.md) |
+| Models | 需要模型适配、路由、回退或推理服务接入 | 2 | [查看公开基线](catalog/models.md) |
+| Sessions | 需要会话历史、记忆、上下文和对话工作流 | 9 | [查看公开基线](catalog/sessions.md) |
+| Security | 关注权限、沙箱、策略、密钥或防护能力 | 5 | [查看公开基线](catalog/security.md) |
+| Storage | 需要持久化、数据库、缓存或产物存储 | 0 | [查看基线状态](catalog/storage.md) |
+
+## 如何理解收录状态
+
+“发现项目”和“允许公开”是两个独立步骤。自动采集器可以产生项目线索，但不能把项目直接写入这个公开导航。
+
+| 状态 | 对使用者意味着什么 |
+| --- | --- |
+| 公开基线 | 来自 Search Console 已索引历史基线，本仓库保留链接以维持稳定 URL；它不代表已完成新一轮人工质量复核，也不是安全认证。 |
+| Candidate | 通过初步自动检查、等待人工复核；本仓库不提供链接。 |
+| Quarantined | 证据不足，暂时无法确认是有实质功能的 DSH 插件；不进入公开目录。 |
+| Rejected | Archived、不可访问、空仓库或触发其他硬门禁；被排除，后续采集不能自动复活。 |
+
+生态报告中的发现量和审计总量可能高于本仓库数量。这是有意设计：优先保证内容质量和稳定索引，不再把每个被发现的仓库都做成公开页面。
 
 也可以直接打开官网分类页：
 
@@ -155,18 +168,18 @@ DeepSeek Harness 仍处在快速迭代阶段，官方明确提示可能发生兼
 
 ### 为什么本仓库数量和实时生态报告不同
 
-本仓库导航的是生成快照时可公开索引的详情页；官网报告还会随抓取、复核、发布和下线状态持续变化。官网每六小时刷新来源数据，本仓库只在维护者更新时生成新快照。
+本仓库只导航受控公开基线；官网报告还会包含发现、复核、发布与下线过程中的不同状态，因此总量会更大。本仓库不会为了追平发现量而给候选、隔离或拒绝页面增加链接。
 
 ## 数据范围与更新
 
 - 本次导航快照：2026-08-17
-- 公开详情页：1,294
-- 分类：8
+- 受控公开基线：87 个插件页
+- 基线中有条目的分类：7 个，Storage 暂无基线条目
 - 数据来源：公开 GitHub 仓库、npm 元数据和发布者页面
 - 实时状态：[生态报告](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem)
 - 收录方法：[编辑政策](https://dshplugin.dev/editorial-policy)
 
-插件名称、简介、许可证和活跃度可能随发布者更新而变化。仓库内的分类清单用于导航，插件详情页和发布者原始资料才是判断当前状态的依据。
+插件名称、简介、许可证和活跃度可能随发布者更新而变化。仓库内分类清单是受控导航快照，不是所有候选项目的镜像；插件详情页和发布者原始资料才是判断当前状态的依据。
 
 ## 提交、纠错与收录
 

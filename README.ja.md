@@ -18,7 +18,7 @@
 用途と権限範囲を確認してから、[dshplugin.dev](https://dshplugin.dev/) の詳細ページで最新情報を確認できます。上のロゴをクリックしてもウェブサイトへ移動できます。
 
 [![Website](https://img.shields.io/badge/プラグインを探す-dshplugin.dev-0B6E5F)](https://dshplugin.dev/)
-[![Directory](https://img.shields.io/badge/公開詳細ページ-1%2C294-2563EB)](https://dshplugin.dev/)
+[![Baseline](https://img.shields.io/badge/管理対象の公開ベースライン-87-2563EB)](https://dshplugin.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## このハンドブックについて
@@ -32,7 +32,7 @@ DeepSeek Harness（DSH）は、「Everything is a Plugin」という考え方で
 3. 最新のプラグイン情報をどこで確認できるか。
 4. 権限や互換性の問題が起きたとき、どう切り分けるか。
 
-カタログ内のプラグイン名をクリックすると、`dshplugin.dev` の詳細ページが開きます。詳細ページでは、公開元、用途、インストールコマンド、ライセンス、使用言語、リポジトリの更新状況、情報源をまとめて確認できます。
+カタログ内のプラグイン名をクリックすると、`dshplugin.dev` の詳細ページが開きます。このリポジトリがリンクするのは、2026-08-17に確認した87件の公開ベースラインだけです。クローラーが発見したすべてのプロジェクトを公開リストに追加することはありません。詳細ページでは、公開元、用途、インストールコマンド、ライセンス、使用言語、リポジトリの更新状況、情報源をまとめて確認できます。
 
 > [!IMPORTANT]
 > `dshplugin.dev` は独立したコミュニティディレクトリであり、DeepSeekの公式サイトではありません。掲載は、DeepSeekまたは各公開元による推奨を意味しません。公開リポジトリ、Star数、更新日時だけでは、安全性、互換性、保守品質を判断できません。
@@ -43,7 +43,7 @@ DeepSeek Harness（DSH）は、「Everything is a Plugin」という考え方で
 | --- | --- |
 | 名前や用途からプラグインを検索する | [プラグイン総合ディレクトリ](https://dshplugin.dev/) |
 | DSHプラグインを初めて導入する | [インストールと確認のガイド](https://dshplugin.dev/guides/install-deepseek-harness-plugins) |
-| 新しく見つかったプロジェクトを見る | [新着プラグイン](https://dshplugin.dev/collections/new-releases) |
+| 新たに公開カタログへ追加されたプロジェクトを見る | [新着プラグイン](https://dshplugin.dev/collections/new-releases) |
 | 最近更新されたプロジェクトを探す | [最近の更新](https://dshplugin.dev/collections/recently-updated) |
 | GitHubのStar数を初期判断の材料にする | [Star数の多いプラグイン](https://dshplugin.dev/collections/most-starred) |
 | 作者やチームごとに探す | [公開元ディレクトリ](https://dshplugin.dev/publishers) |
@@ -52,18 +52,31 @@ DeepSeek Harness（DSH）は、「Everything is a Plugin」という考え方で
 
 ## 用途から選ぶ
 
-このリポジトリの分類ファイルには、公開中の詳細ページ1,294件を収録しています。件数は2026-08-17時点のスナップショットです。最新件数はウェブサイトで確認してください。
+このリポジトリの分類ファイルがリンクするのは、2026-08-17に確認した87件の管理対象ページだけです。審査待ち、隔離、除外の各レコードは掲載しません。移行期間中にURLを開ける場合でも、このリポジトリからリンクを追加することはありません。
 
 | 分類 | このような目的に向いています | 件数 | 一覧 |
 | --- | --- | ---: | --- |
-| Developer Tools | コード、ターミナル、ファイル、デバッグ、API、ローカル作業の改善 | 555 | [すべて見る](catalog/developer-tools.md) |
-| Automation | 反復作業、エージェント連携、ワークフロー、自動化 | 291 | [すべて見る](catalog/automation.md) |
-| Browser | ウェブ操作、検索、情報取得、テスト、ブラウザ連携 | 127 | [すべて見る](catalog/browser.md) |
-| UI & Design | UI、テーマ、可視化、デザイン、プレビュー | 109 | [すべて見る](catalog/ui-design.md) |
-| Models | モデル接続、ルーティング、フォールバック、推論サービス | 93 | [すべて見る](catalog/models.md) |
-| Sessions | 履歴、メモリ、コンテキスト、要約、会話管理 | 62 | [すべて見る](catalog/sessions.md) |
-| Security | 権限、サンドボックス、ポリシー、シークレット、防御機能 | 54 | [すべて見る](catalog/security.md) |
-| Storage | 永続化、データベース、キャッシュ、成果物の保存 | 3 | [すべて見る](catalog/storage.md) |
+| Developer Tools | コード、ターミナル、ファイル、デバッグ、API、ローカル作業の改善 | 46 | [公開ベースラインを見る](catalog/developer-tools.md) |
+| Automation | 反復作業、エージェント連携、ワークフロー、自動化 | 10 | [公開ベースラインを見る](catalog/automation.md) |
+| Browser | ウェブ操作、検索、情報取得、テスト、ブラウザ連携 | 9 | [公開ベースラインを見る](catalog/browser.md) |
+| UI & Design | UI、テーマ、可視化、デザイン、プレビュー | 6 | [公開ベースラインを見る](catalog/ui-design.md) |
+| Models | モデル接続、ルーティング、フォールバック、推論サービス | 2 | [公開ベースラインを見る](catalog/models.md) |
+| Sessions | 履歴、メモリ、コンテキスト、要約、会話管理 | 9 | [公開ベースラインを見る](catalog/sessions.md) |
+| Security | 権限、サンドボックス、ポリシー、シークレット、防御機能 | 5 | [公開ベースラインを見る](catalog/security.md) |
+| Storage | 永続化、データベース、キャッシュ、成果物の保存 | 0 | [ベースライン状況を見る](catalog/storage.md) |
+
+## 掲載状態の見方
+
+プロジェクトの発見と公開は、別の判断です。自動クローラーは候補を見つけるだけで、この公開カタログへ直接追加することはできません。
+
+| 状態 | 利用者が確認できること |
+| --- | --- |
+| 公開ベースライン | Search Consoleでインデックス登録を確認した既存URLの集合です。URLを安定して維持するためにリンクしますが、新たな目視確認や安全認証が完了したことを示すものではありません。 |
+| Candidate | 初期の自動確認を通過し、担当者の確認を待っている状態です。このリポジトリからはリンクしません。 |
+| Quarantined | DSHプラグインとしての実質的な根拠が不足しています。公開カタログには掲載しません。 |
+| Rejected | Archived、アクセス不能、空のリポジトリなど、明確な除外条件に該当します。後のクロールで自動的に再掲載されることはありません。 |
+
+エコシステムレポートには、発見済みまたは監査中の件数が含まれるため、このカタログより総数が多くなる場合があります。すべてのリポジトリを公開するのではなく、内容の質と安定したインデックス管理を優先しています。
 
 ウェブサイトの分類ページ：
 
@@ -156,13 +169,13 @@ DeepSeek Harnessは現在も変化が速く、公式プロジェクトでは互�
 ## データ範囲と更新
 
 - スナップショット作成日：2026-08-17
-- このリポジトリの公開詳細ページ：1,294件
-- 分類：8
+- このリポジトリの管理対象となる公開ベースライン：87件
+- ベースラインに掲載がある分類：7。Storageは現在0件
 - 情報源：公開GitHubリポジトリ、npmメタデータ、公開元のページ
 - 最新状況：[エコシステムレポート](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem)
 - 掲載方法：[編集ポリシー](https://dshplugin.dev/editorial-policy)
 
-名称、説明、ライセンス、更新状況は変わる可能性があります。分類ファイルはナビゲーション用のスナップショットです。現在の状態は、ウェブサイトの詳細ページと公開元の資料で確認してください。
+名称、説明、ライセンス、更新状況は変わる可能性があります。分類ファイルは管理対象のナビゲーション用スナップショットであり、発見された全候補の複製ではありません。現在の状態は、ウェブサイトの詳細ページと公開元の資料で確認してください。
 
 ## 掲載申請と修正
 

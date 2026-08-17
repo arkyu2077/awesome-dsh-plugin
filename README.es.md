@@ -18,7 +18,7 @@
 Comprueba para qué sirve un plugin y qué permisos necesita. Después, consulta su ficha completa en [dshplugin.dev](https://dshplugin.dev/). También puedes hacer clic en el logo para visitar el sitio web.
 
 [![Website](https://img.shields.io/badge/Explorar-dshplugin.dev-0B6E5F)](https://dshplugin.dev/)
-[![Directory](https://img.shields.io/badge/Fichas_públicas-1%2C294-2563EB)](https://dshplugin.dev/)
+[![Baseline](https://img.shields.io/badge/Base_pública_controlada-87-2563EB)](https://dshplugin.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Para qué sirve este manual
@@ -32,7 +32,7 @@ Este repositorio está pensado para quienes quieren utilizar esos productos. No 
 3. ¿Dónde puedo consultar la información más reciente?
 4. ¿Qué hago si aparecen problemas de permisos o compatibilidad?
 
-Cada nombre del catálogo abre primero una ficha interna de `dshplugin.dev`. Allí puedes revisar el editor, el propósito, el comando de instalación, la licencia, el lenguaje, la actividad del repositorio y la fuente original antes de continuar al sitio del editor.
+Cada nombre del catálogo abre primero una ficha interna de `dshplugin.dev`. Este repositorio enlaza únicamente las 87 páginas de la base pública verificada el 17 de agosto de 2026; no convierte cada descubrimiento del rastreador en una recomendación pública. En cada ficha puedes revisar el editor, el propósito, el comando de instalación, la licencia, el lenguaje, la actividad del repositorio y la fuente original antes de continuar al sitio del editor.
 
 > [!IMPORTANT]
 > `dshplugin.dev` es un directorio comunitario independiente, no un sitio oficial de DeepSeek. La inclusión de un proyecto no representa una recomendación de DeepSeek ni del editor. Un repositorio público, el número de estrellas o una actualización reciente no demuestran por sí solos seguridad, compatibilidad o calidad de mantenimiento.
@@ -43,7 +43,7 @@ Cada nombre del catálogo abre primero una ficha interna de `dshplugin.dev`. All
 | --- | --- |
 | Buscar por nombre o caso de uso | [Directorio completo](https://dshplugin.dev/) |
 | Instalar un plugin de DSH por primera vez | [Guía de instalación y verificación](https://dshplugin.dev/guides/install-deepseek-harness-plugins) |
-| Ver proyectos descubiertos recientemente | [Nuevos plugins](https://dshplugin.dev/collections/new-releases) |
+| Ver proyectos admitidos recientemente en el catálogo público | [Nuevos plugins](https://dshplugin.dev/collections/new-releases) |
 | Encontrar proyectos con actualizaciones recientes | [Actualizados recientemente](https://dshplugin.dev/collections/recently-updated) |
 | Usar las estrellas de GitHub como señal inicial | [Con más estrellas](https://dshplugin.dev/collections/most-starred) |
 | Explorar por autor o equipo | [Directorio de editores](https://dshplugin.dev/publishers) |
@@ -52,18 +52,31 @@ Cada nombre del catálogo abre primero una ficha interna de `dshplugin.dev`. All
 
 ## Elige según tu necesidad
 
-Los archivos de categoría incluyen 1.294 fichas públicas en esta instantánea. Las cifras corresponden al 17 de agosto de 2026; consulta el sitio web para ver el índice en tiempo real.
+Los archivos de categoría enlazan únicamente las 87 páginas de la base pública controlada que se verificó el 17 de agosto de 2026. Los registros candidatos, en cuarentena o rechazados quedan fuera, incluso si alguna URL transitoria todavía se puede abrir.
 
 | Categoría | Úsala cuando necesites | Instantánea | Catálogo completo |
 | --- | --- | ---: | --- |
-| Developer Tools | Código, terminal, archivos, depuración, API o flujos locales | 555 | [Ver todos](catalog/developer-tools.md) |
-| Automation | Tareas repetitivas, coordinación de agentes, flujos o integraciones | 291 | [Ver todos](catalog/automation.md) |
-| Browser | Navegación, investigación, extracción, pruebas o conexión con el navegador | 127 | [Ver todos](catalog/browser.md) |
-| UI & Design | Interfaces, temas, visualización, diseño o vistas previas | 109 | [Ver todos](catalog/ui-design.md) |
-| Models | Adaptadores, enrutamiento, alternativas o proveedores de inferencia | 93 | [Ver todos](catalog/models.md) |
-| Sessions | Historial, memoria, contexto, resúmenes o gestión de conversaciones | 62 | [Ver todos](catalog/sessions.md) |
-| Security | Permisos, entornos aislados, políticas, secretos o controles defensivos | 54 | [Ver todos](catalog/security.md) |
-| Storage | Persistencia, bases de datos, caché o almacenamiento de artefactos | 3 | [Ver todos](catalog/storage.md) |
+| Developer Tools | Código, terminal, archivos, depuración, API o flujos locales | 46 | [Ver la base](catalog/developer-tools.md) |
+| Automation | Tareas repetitivas, coordinación de agentes, flujos o integraciones | 10 | [Ver la base](catalog/automation.md) |
+| Browser | Navegación, investigación, extracción, pruebas o conexión con el navegador | 9 | [Ver la base](catalog/browser.md) |
+| UI & Design | Interfaces, temas, visualización, diseño o vistas previas | 6 | [Ver la base](catalog/ui-design.md) |
+| Models | Adaptadores, enrutamiento, alternativas o proveedores de inferencia | 2 | [Ver la base](catalog/models.md) |
+| Sessions | Historial, memoria, contexto, resúmenes o gestión de conversaciones | 9 | [Ver la base](catalog/sessions.md) |
+| Security | Permisos, entornos aislados, políticas, secretos o controles defensivos | 5 | [Ver la base](catalog/security.md) |
+| Storage | Persistencia, bases de datos, caché o almacenamiento de artefactos | 0 | [Ver el estado](catalog/storage.md) |
+
+## Cómo funciona el estado de publicación
+
+Descubrir un proyecto y publicarlo son decisiones distintas. El rastreador automático puede encontrar un candidato, pero no puede incorporarlo directamente a este catálogo público.
+
+| Estado | Qué significa para el usuario |
+| --- | --- |
+| Base pública | Es el conjunto histórico de URL cuya indexación se verificó en Search Console. Se conservan los enlaces para mantener URL estables, pero esto no demuestra una revisión manual reciente ni una certificación de seguridad. |
+| Candidate | Ha superado las comprobaciones automáticas iniciales y espera revisión humana. No se enlaza desde aquí. |
+| Quarantined | No hay pruebas suficientes para establecer que sea un plugin de DSH con funcionalidad sustancial. Se mantiene fuera del catálogo público. |
+| Rejected | Está archivado, no es accesible, está vacío o ha fallado una condición excluyente. Un rastreo posterior no debe volver a publicarlo automáticamente. |
+
+El informe del ecosistema puede mostrar más proyectos descubiertos o auditados que este catálogo. La diferencia es intencionada: se priorizan la calidad y una indexación estable frente a publicar todos los repositorios encontrados.
 
 Categorías en el sitio web:
 
@@ -156,13 +169,13 @@ No. La inclusión significa que el directorio encontró y normalizó informació
 ## Alcance de los datos y actualizaciones
 
 - Fecha de la instantánea: 2026-08-17
-- Fichas públicas en este repositorio: 1.294
-- Categorías: 8
+- Base pública controlada en este repositorio: 87 páginas de plugins
+- Categorías con entradas en la base: 7; Storage tiene actualmente 0
 - Fuentes: repositorios públicos de GitHub, metadatos de npm y páginas de los editores
 - Estado actual: [Informe del ecosistema](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem)
 - Método de inclusión: [Política editorial](https://dshplugin.dev/editorial-policy)
 
-Los nombres, descripciones, licencias y señales de actividad pueden cambiar. Los archivos de categoría son instantáneas de navegación; verifica el estado actual en la ficha del sitio web y en la fuente del editor.
+Los nombres, descripciones, licencias y señales de actividad pueden cambiar. Los archivos de categoría son una instantánea de navegación controlada, no una copia de todos los candidatos descubiertos. Verifica el estado actual en la ficha del sitio web y en la fuente del editor.
 
 ## Enviar o corregir un plugin
 

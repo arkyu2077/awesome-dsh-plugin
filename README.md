@@ -18,7 +18,7 @@
 Understand what a plugin does and what access it needs, then open its complete page on [dshplugin.dev](https://dshplugin.dev/). You can also click the logo above to visit the website.
 
 [![Website](https://img.shields.io/badge/Browse-dshplugin.dev-0B6E5F)](https://dshplugin.dev/)
-[![Directory](https://img.shields.io/badge/Public_detail_pages-1%2C294-2563EB)](https://dshplugin.dev/)
+[![Baseline](https://img.shields.io/badge/Controlled_public_baseline-87-2563EB)](https://dshplugin.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## What this handbook is for
@@ -32,7 +32,7 @@ This repository is written for people who want to use those products. It is not 
 3. Where can I find the latest plugin information?
 4. What should I do when permissions or compatibility cause problems?
 
-Every plugin name in the catalog opens an internal `dshplugin.dev` detail page. That page brings together the publisher, purpose, install command, license, language, repository activity, and original source before you decide whether to continue to the publisher.
+Every plugin name in the catalog opens an internal `dshplugin.dev` detail page. This repository deliberately links only the 87-page public baseline verified on 2026-08-17; it does not turn every crawler discovery into a public recommendation. Each detail page brings together the publisher, purpose, install command, license, language, repository activity, and original source before you decide whether to continue to the publisher.
 
 > [!IMPORTANT]
 > `dshplugin.dev` is an independent community directory. It is not an official DeepSeek website, and a listing is not an endorsement by DeepSeek or the publisher. A public repository, star count, or recent update does not prove safety, compatibility, or maintenance quality.
@@ -43,7 +43,7 @@ Every plugin name in the catalog opens an internal `dshplugin.dev` detail page. 
 | --- | --- |
 | Search by plugin name or use case | [Complete plugin directory](https://dshplugin.dev/) |
 | Install a DSH plugin for the first time | [Installation and verification guide](https://dshplugin.dev/guides/install-deepseek-harness-plugins) |
-| See projects newly discovered in the ecosystem | [New releases](https://dshplugin.dev/collections/new-releases) |
+| See projects newly admitted to the public catalog | [New releases](https://dshplugin.dev/collections/new-releases) |
 | Find projects with recent source updates | [Recently updated](https://dshplugin.dev/collections/recently-updated) |
 | Use GitHub stars as an initial signal | [Most starred](https://dshplugin.dev/collections/most-starred) |
 | Browse the work of an author or team | [Publisher directory](https://dshplugin.dev/publishers) |
@@ -52,18 +52,31 @@ Every plugin name in the catalog opens an internal `dshplugin.dev` detail page. 
 
 ## Choose by use case
 
-The category files cover 1,294 public detail pages in this repository snapshot. Counts are from 2026-08-17; use the website for the live index.
+The category files link only the 87-page controlled public baseline verified on 2026-08-17. Candidate, quarantined, and rejected records are excluded, even when a transitional URL can still be opened.
 
 | Category | Use it when you need | Snapshot | Complete catalog |
 | --- | --- | ---: | --- |
-| Developer Tools | Code, terminal, file, debugging, API, or local-workflow improvements | 555 | [Browse all](catalog/developer-tools.md) |
-| Automation | Repeatable tasks, agent coordination, orchestration, or integrations | 291 | [Browse all](catalog/automation.md) |
-| Browser | Navigation, research, extraction, testing, or browser bridges | 127 | [Browse all](catalog/browser.md) |
-| UI & Design | Interfaces, themes, visualization, design, or preview workflows | 109 | [Browse all](catalog/ui-design.md) |
-| Models | Model adapters, routing, fallback, or inference providers | 93 | [Browse all](catalog/models.md) |
-| Sessions | History, memory, context, summaries, or conversation workflows | 62 | [Browse all](catalog/sessions.md) |
-| Security | Permissions, sandboxing, policy, secrets, or defensive controls | 54 | [Browse all](catalog/security.md) |
-| Storage | Persistence, databases, caches, or artifact storage | 3 | [Browse all](catalog/storage.md) |
+| Developer Tools | Code, terminal, file, debugging, API, or local-workflow improvements | 46 | [Browse baseline](catalog/developer-tools.md) |
+| Automation | Repeatable tasks, agent coordination, orchestration, or integrations | 10 | [Browse baseline](catalog/automation.md) |
+| Browser | Navigation, research, extraction, testing, or browser bridges | 9 | [Browse baseline](catalog/browser.md) |
+| UI & Design | Interfaces, themes, visualization, design, or preview workflows | 6 | [Browse baseline](catalog/ui-design.md) |
+| Models | Model adapters, routing, fallback, or inference providers | 2 | [Browse baseline](catalog/models.md) |
+| Sessions | History, memory, context, summaries, or conversation workflows | 9 | [Browse baseline](catalog/sessions.md) |
+| Security | Permissions, sandboxing, policy, secrets, or defensive controls | 5 | [Browse baseline](catalog/security.md) |
+| Storage | Persistence, databases, caches, or artifact storage | 0 | [Baseline status](catalog/storage.md) |
+
+## How publication status works
+
+Discovery and publication are separate decisions. Automated crawling can identify a project, but it cannot promote that project into this public catalog.
+
+| Status | What it means for users |
+| --- | --- |
+| Public baseline | The historical cohort verified as indexed in Search Console. It is linked here to preserve stable URLs, but this does not prove a fresh manual review or safety certification. |
+| Candidate | Passed initial automated checks and is waiting for human review. It is not linked here. |
+| Quarantined | Evidence is incomplete or does not yet establish a substantive DSH plugin. It remains outside the public catalog. |
+| Rejected | Archived, inaccessible, empty, or otherwise failed a hard gate. It is excluded and should not be revived by a later crawl. |
+
+The wider ecosystem report can contain discovery and audit totals that are larger than this catalog. That difference is intentional: quality and stable indexation take priority over publishing every discovered repository.
 
 Live website categories:
 
@@ -156,13 +169,13 @@ No. A listing means the directory found and normalized public-source information
 ## Data scope and updates
 
 - Snapshot date: 2026-08-17
-- Public detail pages in this repository: 1,294
-- Categories: 8
+- Controlled public baseline in this repository: 87 plugin pages
+- Categories represented in the baseline: 7, plus an empty Storage status page
 - Sources: public GitHub repositories, npm metadata, and publisher pages
 - Live status: [Ecosystem report](https://dshplugin.dev/reports/deepseek-harness-plugin-ecosystem)
 - Inclusion method: [Editorial policy](https://dshplugin.dev/editorial-policy)
 
-Plugin names, descriptions, licenses, and activity can change. The category files are navigation snapshots; the website detail page and publisher source are the places to verify current status.
+Plugin names, descriptions, licenses, and activity can change. The category files are a controlled navigation snapshot, not a mirror of every discovered candidate. The website detail page and publisher source are the places to verify current status.
 
 ## Submit or correct a listing
 
