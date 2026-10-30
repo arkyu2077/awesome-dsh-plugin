@@ -64,3 +64,4 @@ Order follows the source snapshot and is not a quality ranking.
 | 44 | [math-lean](https://dshplugin.dev/plugins/fisfzy-math-lean) | Fisfzy | TypeScript | — | dsh-lean-prover: Lean kernel-verified math reasoning plugin (DSH Cordis) |
 | 45 | [DSH Scout](https://dshplugin.dev/plugins/omdsh-dev-dsh-scout) | omdsh-dev | TypeScript | — | 面向 DeepSeek Harness 的只读环境探测插件，为智能体提供运行环境、软件版本、系统资源、端口、服务、硬件及工作区信息。 |
 | 46 | [Qwen-MM-Plugins](https://dshplugin.dev/plugins/omdsh-dev-qwen-mm-plugins) | omdsh-dev | TypeScript | — | Qwen-MM-Plugins支持 |
+| 47 | [dsh-wb400-guard](https://github.com/curo22/dsh-wb400-guard) | curo22 | JavaScript | MIT | 绕开 WorkBuddy 国内网关对 system 消息里 @ 字符的拦截（HTTP 400 / code 11128），在 fetch 层改写请求体，只作用于 copilot.tencent.com；零运行时依赖，需 Node 22.19+ 或 24+，会自动改写全局 fetch，可配置关闭。 |
